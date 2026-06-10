@@ -1,0 +1,72 @@
+[
+  {
+    "type": "trade_settled",
+    "timestamp": "2026-06-09T17:37:09.303946652+08:00",
+    "market_id": "btc-updown-5m-1780991100",
+    "message": "Trade settled: PnL $2.25",
+    "data": {
+      "pnl": 2.25,
+      "won": true
+    },
+    "level": "success"
+  },
+  {
+    "type": "trade_executed",
+    "timestamp": "2026-06-10T03:18:40.426594658+08:00",
+    "market_id": "btc-updown-5m-1781032500",
+    "message": "Executed DOWN trade: 5.00 shares @ $0.3400 (19.0% confidence)",
+    "data": {
+      "confidence": 0.19018694098584055,
+      "direction": "DOWN",
+      "price": 0.33999999999999997,
+      "size": 5
+    },
+    "level": "info"
+  },
+  {
+    "type": "trade_settled",
+    "timestamp": "2026-06-10T03:27:06.180617843+08:00",
+    "market_id": "btc-updown-5m-1781032500",
+    "message": "Trade settled: PnL $3.30",
+    "data": {
+      "pnl": 3.3000000000000003,
+      "won": true
+    },
+    "level": "success"
+  },
+  {
+    "type": "trade_executed",
+    "timestamp": "2026-06-10T04:53:40.417736686+08:00",
+    "market_id": "btc-updown-5m-1781038200",
+    "message": "Executed DOWN trade: 5.00 shares @ $0.4300 (26.6% confidence)",
+    "data": {
+      "confidence": 0.2656828553917141,
+      "direction": "DOWN",
+      "price": 0.43,
+      "size": 5
+    },
+    "level": "info"
+  },
+  {
+    "type": "trade_settled",
+    "timestamp": "2026-06-10T04:59:09.560745984+08:00",
+    "market_id": "btc-updown-5m-1781038200",
+    "message": "Trade settled: PnL $-2.15",
+    "data": {
+      "pnl": -2.15,
+      "won": false
+    },
+    "level": "warning"
+  },
+  {
+    "type": "trade_settled",
+    "timestamp": "2026-06-10T05:21:08.868078585+08:00",
+    "market_id": "btc-updown-5m-1781039400",
+    "message": "Trade settled: PnL $-2.55",
+    "data": {
+      "pnl": -2.55,
+      "won": false
+    },
+    "level": "warning"
+  }
+]
